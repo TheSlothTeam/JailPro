@@ -1,0 +1,32 @@
+name: JailPro
+main: JailPro
+version: 2.0.0
+api: (2.0.0)
+author: TheSlothTeam
+discription 
+This simple plugin was made for fun! Its to jail anyone they want! All youneed is wardans op, then you can! This is a very fun plugin!
+
+
+Commands used
+/jail (username)
+description: sends your user to prison. Allcommands will be disabled until heard overwise.
+
+/par-jail (user) 
+description:The prisoner can now leave the prison.Your commands will be backed up.
+
+/jailop (user) 
+description: The staff cam arrestanyone they want. Toput them in  jail, they had to do something bad enough.
+
+permissions:
+    
+    JailPro.command.Jailop (user)
+        default: op
+        description: Gives the user the responsibility to have that tool to put bad users in jail!
+    
+    JailPro.command.par-jail (user):
+        default:op
+        description: Allowsthe user to take that user out of jail. There commands will grow back.
+      
+      JailPro.command. jail (user)
+       default: op
+        description: Allows admins to jail who ever they desire.
